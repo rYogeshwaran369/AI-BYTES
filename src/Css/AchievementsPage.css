@@ -1,0 +1,56 @@
+.achievements-page {
+    padding: 2rem;
+   background-color: black; 
+  }
+  
+  .segments {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+  
+  .segment {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .segment.active {
+    background-color: #ccc;
+  }
+
+
+
+.imge{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);}
+
+.imge:hover{
+  transform: scale(1.1);
+  
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.item{
+  background-color:white;
+  overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.text{
+  font-family: "IBM Plex Mono", monospace;
+  padding: 10px;
+}
+
+.text:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.des{
+  padding: 10px;
+}
