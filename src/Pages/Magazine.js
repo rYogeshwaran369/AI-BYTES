@@ -47,7 +47,7 @@ prowess of our field but also highlight how the Department has nurtured.
 
 
 
-    <div style={{textAlign:'center'}}>
+    {/* <div style={{textAlign:'center'}}>
         <h1>Our Magazines</h1>
     </div>
 
@@ -57,7 +57,7 @@ prowess of our field but also highlight how the Department has nurtured.
         <MagazineCard/>
         <MagazineCard/>
 
-    </div>
+    </div> */}
     </div>
   )
 }

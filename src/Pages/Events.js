@@ -31,7 +31,7 @@ export default function Events() {
         </div>
                 <Event url='https://res.cloudinary.com/dxhmtgtpg/image/upload/v1691626981/expo_dglaqk.jpg' name='Project Expo' date='SEPT - 15'/>
                 <Event url='https://res.cloudinary.com/dxhmtgtpg/image/upload/v1691627571/psychore_axa9er.jpg' name='Psy-Chore' date='MARCH - 15'/>
-                <Event url='https://res.cloudinary.com/dxhmtgtpg/image/upload/v1691626981/expo_dglaqk.jpg' name='Project Expo' date='SEPT - 15'/>
+                {/* <Event url='https://res.cloudinary.com/dxhmtgtpg/image/upload/v1691626981/expo_dglaqk.jpg' name='Project Expo' date='SEPT - 15'/> */}
                
              
                 
