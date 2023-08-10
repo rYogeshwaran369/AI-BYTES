@@ -23,6 +23,7 @@ const AchievementsPage = () => {
       description: 'Description of Photo 2',
       head:'Natural Language processing'
     },
+    
     // Add more photo items as needed
   ];
   
@@ -30,7 +31,7 @@ const AchievementsPage = () => {
   return (
     <div className="achievements-page" >
       {/* Render the AchievementsSegment components here */}
-      <div style={{display:'flex',flexDirection:'column',marginLeft:'3%'}}>
+      <div style={{display:'flex',flexDirection:'column',marginLeft:'3%',flexWrap:'wrap'}}>
       <AchievementsSegment content={photos}/>
       
 
@@ -41,3 +42,5 @@ const AchievementsPage = () => {
 };
 
 export default AchievementsPage;
+
+

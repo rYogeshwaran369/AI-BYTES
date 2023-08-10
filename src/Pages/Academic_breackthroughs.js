@@ -12,11 +12,10 @@ export default function Academic_breackthroughs() {
   <div style={{ display: 'flex', flexDirection: 'row', width: '45%', justifyContent: 'space-between', marginRight: '2%', textDecoration: 'none' }}>
     <Link style={{ textDecoration: 'none', color: 'white' }} to={'/magazine'}><h3 style={{ fontWeight: 'bold', fontSize: '1.4em', fontFamily: 'monospace' }}>MAGAZINES</h3></Link>
     <Link style={{ textDecoration: 'none', color: 'white' }} to={'/events'}><h3 style={{ fontWeight: 'bold', fontSize: '1.4em', fontFamily: 'monospace' }}>EVENTS</h3></Link>
-    <Link style={{ textDecoration: 'none', color: 'white' }} to={'/academic'}><h3 style={{ fontWeight: 'bold', fontSize: '1.4em', fontFamily: 'monospace' }}>ACADEMIC_BREACKTHROUGHS</h3></Link>
+    <Link style={{ textDecoration: 'none', color: 'white' }} to={'/academic'}><h3 style={{ fontWeight: 'bold', fontSize: '1.4em', fontFamily: 'monospace' }}>ACADEMIC_BREAKTHROUGHS</h3></Link>
     <Link style={{ textDecoration: 'none', color: 'white' }} to={'/faculty'}><h3 style={{ fontWeight: 'bold', fontSize: '1.4em', fontFamily: 'monospace' }}>FACULTIES</h3></Link>
   </div>
 </div>
-
 
      {/* Magazines Section */}
      <div style={{ marginTop: '-2%', height: '90vh', color: 'white', backgroundColor: 'black', width: '100%', justifyContent: 'space-between', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
@@ -28,7 +27,8 @@ export default function Academic_breackthroughs() {
         <div  style={{ width: '50%', justifyContent: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center',  transition: 'opacity 1s ease-in-out, transform 1s ease-in-out' }}>
           <h2 style={{ fontSize: '5em' }}>Our Initiatives</h2>
           <p style={{wordSpacing:2}}>
-               qwertyuioasdfghwertThe code you've provided seems to be correctly set up with a fixed navigation bar at the top of the page, a centered title with fade-in effects, and a content section below. Is there anything specific you're looking to achieve or modify in this code? If you have any further questions or adjustments, please let me know!
+          Welcome to our vibrant online gallery of student excellence and creativity! Join us in celebrating the academic milestones and artistic brilliance that set our students apart.  This meticulously crafted section is a celebration of our students' remarkable academic achievements and boundless creative talents. 
+This is not just a platform; it's a testament to the heights we can reach when we empower young minds to explore, create, and excel.
              </p>
         </div>
       

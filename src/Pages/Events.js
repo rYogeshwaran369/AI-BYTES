@@ -5,7 +5,7 @@ import Event from '../Components/Event'
 
 export default function Events() {
   return (
-    <div style={{width:'100%',height:'100vh'}}>
+    <div style={{width:'100%',height:'100vh',backgroundColor:'black'}}>
      
      
       <div style={{  backgroundColor:'black', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '100%' }}>
@@ -14,7 +14,7 @@ export default function Events() {
   <div style={{ display: 'flex', flexDirection: 'row', width: '45%', justifyContent: 'space-between', marginRight: '2%', textDecoration: 'none' }}>
     <Link style={{ textDecoration: 'none', color: 'white' }} to={'/magazine'}><h3 style={{ fontWeight: 'bold', fontSize: '1.4em', fontFamily: 'monospace' }}>MAGAZINES</h3></Link>
     <Link style={{ textDecoration: 'none', color: 'white' }} to={'/events'}><h3 style={{ fontWeight: 'bold', fontSize: '1.4em', fontFamily: 'monospace' }}>EVENTS</h3></Link>
-    <Link style={{ textDecoration: 'none', color: 'white' }} to={'/academic'}><h3 style={{ fontWeight: 'bold', fontSize: '1.4em', fontFamily: 'monospace' }}>ACADEMIC_BREACKTHROUGHS</h3></Link>
+    <Link style={{ textDecoration: 'none', color: 'white' }} to={'/academic'}><h3 style={{ fontWeight: 'bold', fontSize: '1.4em', fontFamily: 'monospace' }}>ACADEMIC_BREAKTHROUGHS</h3></Link>
     <Link style={{ textDecoration: 'none', color: 'white' }} to={'/faculty'}><h3 style={{ fontWeight: 'bold', fontSize: '1.4em', fontFamily: 'monospace' }}>FACULTIES</h3></Link>
   </div>
 </div>
@@ -31,6 +31,9 @@ export default function Events() {
         </div>
                 <Event url='https://res.cloudinary.com/dxhmtgtpg/image/upload/v1691626981/expo_dglaqk.jpg' name='Project Expo' date='SEPT - 15'/>
                 <Event url='https://res.cloudinary.com/dxhmtgtpg/image/upload/v1691627571/psychore_axa9er.jpg' name='Psy-Chore' date='MARCH - 15'/>
+                <Event url='https://res.cloudinary.com/dxhmtgtpg/image/upload/v1691626981/expo_dglaqk.jpg' name='Project Expo' date='SEPT - 15'/>
+               
+             
                 
         </div>
 

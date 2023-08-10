@@ -13,7 +13,7 @@ export default function Magazine() {
   <div style={{ display: 'flex', flexDirection: 'row', width: '45%', justifyContent: 'space-between', marginRight: '2%', textDecoration: 'none' }}>
     <Link style={{ textDecoration: 'none', color: 'white' }} to={'/magazine'}><h3 style={{ fontWeight: 'bold', fontSize: '1.4em', fontFamily: 'monospace' }}>MAGAZINES</h3></Link>
     <Link style={{ textDecoration: 'none', color: 'white' }} to={'/events'}><h3 style={{ fontWeight: 'bold', fontSize: '1.4em', fontFamily: 'monospace' }}>EVENTS</h3></Link>
-    <Link style={{ textDecoration: 'none', color: 'white' }} to={'/academic'}><h3 style={{ fontWeight: 'bold', fontSize: '1.4em', fontFamily: 'monospace' }}>ACADEMIC_BREACKTHROUGHS</h3></Link>
+    <Link style={{ textDecoration: 'none', color: 'white' }} to={'/academic'}><h3 style={{ fontWeight: 'bold', fontSize: '1.4em', fontFamily: 'monospace' }}>ACADEMIC_BREAKTHROUGHS</h3></Link>
     <Link style={{ textDecoration: 'none', color: 'white' }} to={'/faculty'}><h3 style={{ fontWeight: 'bold', fontSize: '1.4em', fontFamily: 'monospace' }}>FACULTIES</h3></Link>
   </div>
 </div>
@@ -31,8 +31,15 @@ export default function Magazine() {
   
   <div style={{ width: '50%', justifyContent: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center',  transition: 'opacity 1s ease-in-out, transform 1s ease-in-out' }}>
     <h2 style={{ fontSize: '5em', textAlign: 'center' }}>AI BYTES</h2>
-    <p style={{ wordSpacing: 1 }}>
-      qwertyuioasdfghwertThe code you've provided seems to be correctly set up with a fixed navigation bar at the top of the page, a centered title with fade-in effects, and a content section below. Is there anything specific you're looking to achieve or modify in this code? If you have any further questions or adjustments, please let me know!
+    <p style={{ wordSpacing: 1 ,marginRight:'2%'}}>
+    This first edition features in-depth discussions on Student Achievements, 
+        informative articles, and thought-provoking conversations with 
+        industry leaders, faculties who shed light on the ethical considerations surrounding artificial intelligence advancements.
+        <br></br>
+        These articles not only showcase the technical 
+prowess of our field but also highlight how the Department has nurtured.
+<br></br>
+“The magazine was good and was in such a manner that it pulled us inside itself into it's own world.”
     </p>
 
   </div>
